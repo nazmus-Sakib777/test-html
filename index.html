@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My sweet web site</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: .90em;
+            line-height: 20px;
+        }
+        .main{
+            width: 960px;
+            margin: 20px auto;
+            display: block;
+            overflow:hidden;
+        }
+        .header img{
+            width: 960px;
+        }
+        .slider img{
+            width: 960px;
+            height: 300px;
+        }
+        .mainmenu{
+            background: #ededed;
+            overflow: hidden;
+        }
+        .mainmenu ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .mainmenu ul li{
+            float: left;
+            border-right: 1px solid #ddd;
+        }
+        .mainmenu ul li a{
+            display: block;
+            color:#000;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .mainmenu ul li a:hover{
+            background-color: #E2F09B;
+        }
+        .mainContent{
+            overflow: hidden;
+            margin-top: 30px;
+        }
+        .content{
+            float: left;
+            width: 600px;
+            margin-right: 30px;
+        }
+        .sidebar{
+            margin-top: 20px;
+            float: right;
+            width: 330px;
+        }
+        .sidebar ul{
+            list-style: none;
+        }
+        .sidebar ul li{
+            padding: 5px;
+            border-bottom: 1px solid #ddd;
+        }
+        .sidebar ul li a{
+            text-decoration: none;
+            color: #000;
+        }
+        .footer{
+            background: #333;
+            color: #fff;
+            margin-top: 25px;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <img src="Images/banner.jpg">
+        </div>
+        <div class="mainmenu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Media</a></li>
+            </ul>
+        </div>
+        <div class="slider">
+            <img src="Images/slider2.png">
+        </div>
+        <div class="mainContent">
+            <div class="content">
+                <h2>This is content title</h2>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.</p>
+            </div>
+            <div class="sidebar">
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">FM</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <p>www.isdb-bisew.org</p>
+        </div>
+    </div>
+</body>
+</html>
